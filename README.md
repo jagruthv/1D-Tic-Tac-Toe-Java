@@ -9,10 +9,11 @@ One-liner: “A simple 1D version of Tic-Tac-Toe implemented in Java.”
 
 Mention what it teaches: loops, conditionals, arrays, user input.
 
+
 How to Run
 
 1. Clone the repository:
-   git clone <repo-link>
+   git clone <https://github.com/jagruthv/1D-Tic-Tac-Toe-Java.git>
 2. Navigate to src:
    cd src
 3. Compile:
@@ -26,6 +27,7 @@ Technologies Used
 Java (basic)
 
 Git & GitHub
+
 
 Features / Gameplay
 
