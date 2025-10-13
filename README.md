@@ -1,18 +1,34 @@
-## Getting Started
+Project Title
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1D Tic-Tac-Toe Game in Java
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+Description
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+One-liner: “A simple 1D version of Tic-Tac-Toe implemented in Java.”
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Mention what it teaches: loops, conditionals, arrays, user input.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+How to Run
 
-## Dependency Management
+1. Clone the repository:
+   git clone <repo-link>
+2. Navigate to src:
+   cd src
+3. Compile:
+   javac tic_tac_toe_1d.java
+4. Run:
+   java tic_tac_toe_1d
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+Technologies Used
+
+Java (basic)
+
+Git & GitHub
+
+Features / Gameplay
+
+Two players, simple 1D board
+
+Detects winner or draw
