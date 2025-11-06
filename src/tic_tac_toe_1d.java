@@ -108,11 +108,13 @@ public class tic_tac_toe_1d {
             game[i] = Integer.toString(i+1); // table initialization
         }
         int moves = 0;
-        while(moves != 9 && winCheck(game).equals("000")){
+        while(moves < 9 && winCheck(game).equals("000")){
             if(player_turn("X", game, sc)) break;
             moves++;
-            if(player_turn("O", game, sc)) break;
-            moves++;
+            if(moves < 9){
+                if(player_turn("O", game, sc)) break;
+                moves++;
+            }
         }
         if(moves == 9){
             display(game);
